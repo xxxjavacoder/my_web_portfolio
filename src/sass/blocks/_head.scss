@@ -1,0 +1,31 @@
+.head {
+    background: url(../img/bg.jpeg) no-repeat 50%/cover;
+    min-height: 100vh;
+    position: relative;
+    padding-top: 350px;
+
+    &__title {
+        width: 550px;
+    }
+
+    &__buttons {
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 250px;
+    }
+
+    &__link {
+        height: 45px;
+        padding: 12px 25px;
+        color: $default-text;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+            color: $default-text;
+            border: 2px solid $default-text;
+        }
+    }
+}
