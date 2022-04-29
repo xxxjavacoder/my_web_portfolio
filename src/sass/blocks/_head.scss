@@ -21,4 +21,10 @@
         border: 2px solid $btn-bgc;
         border-radius: 5px;
     }
+
+    &__subtitle {
+        position: relative;
+        @include before_circle;
+        z-index: 2;
+    }
 }

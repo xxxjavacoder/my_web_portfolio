@@ -1,0 +1,51 @@
+.sidepanel {
+    position: absolute;
+    z-index: 10;
+    top: 230px;
+    left: 50px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &__devider {
+        background-color: $default-text;
+        width: 2px;
+        height: 70px;
+    }
+
+    &__title {
+        width: 25px;
+        height: 150px;
+
+        &--rotate {
+            transform: rotate(-90deg) translate(-25%, -250%);
+            display: block;
+            height: 25px;
+            width: 150px;
+        }
+    }
+
+    &__links {
+        color: $default-text;
+    }
+
+    &__icon {
+        height: 20px;
+        width: 20px;
+        background-color: #fff;
+
+        &--facebook {
+            mask-image: url(../icons/Facebook.svg);
+        }
+
+        &--instagram {
+            mask-image: url(../icons/Instagram.svg);
+        }
+
+        &--github {
+            mask-image: url(../icons/Github.svg);
+        }
+    }
+}
