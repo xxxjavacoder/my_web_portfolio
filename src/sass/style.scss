@@ -10,6 +10,7 @@
 
 @import 'blocks/head';
 @import 'blocks/sidepanel';
+@import 'blocks/menu';
 
 @import 'media';
 
@@ -27,6 +28,7 @@ html {
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .title {
