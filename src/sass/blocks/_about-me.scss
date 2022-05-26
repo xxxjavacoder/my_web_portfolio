@@ -1,0 +1,28 @@
+.about-me {
+    margin: 125px 0;
+
+    &__title {
+        position: relative;
+        z-index: 2;
+
+        @include before_circle;
+
+        &::before {
+            left: -5px;
+        }
+    }
+
+    &__name {
+        margin-top: 5px;
+        position: relative;
+        z-index: 2;
+
+        @include underline;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template: 1fr / 1fr 2fr;
+        gap: 70px;
+    }
+}

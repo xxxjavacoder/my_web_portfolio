@@ -11,6 +11,7 @@
 @import 'blocks/head';
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
+@import 'blocks/about-me';
 
 @import 'media';
 
@@ -44,6 +45,10 @@ html {
 
     &--left {
         text-align: end;
+    }
+
+    &--dark {
+        color: $dark-title;
     }
 }
 
