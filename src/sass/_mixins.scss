@@ -12,17 +12,3 @@
         right: 5px;
     }
 }
-
-@mixin underline {
-    
-    &:before {
-        content: '';
-        position: absolute;
-        height: 4px;
-        width: 60px;
-        background-color: $btn-bgc;
-        z-index: -1;
-        bottom: -6px;
-        left: 0;
-    }
-}
