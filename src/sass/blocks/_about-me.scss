@@ -46,4 +46,11 @@
             margin-top: 0;
         }
     }
+
+    &__skills {
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        column-gap: 50px;
+        row-gap: 20px;
+    }
 }
