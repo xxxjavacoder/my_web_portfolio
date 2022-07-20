@@ -27,4 +27,18 @@
         @include before_circle;
         z-index: 2;
     }
+
+    &__line {
+        &:hover {
+            background-color: $btn-bgc;
+            transition: .65s;
+        }
+    }
+
+    &__filled {
+        &:hover {
+            background-color: transparent;
+            transition: .65s;
+        }
+    }
 }
